@@ -1,0 +1,22 @@
+{
+  "name": "my-blog",
+  "version": "0.0.1",
+  "description": "dushihong blog",
+  "main": "index.js",
+  "authors": {
+    "name": "dushihong",
+    "email": "dushihonga@163.com"
+  },
+  "repository": "/my-blog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.9",
+    "@vuepress/plugin-back-to-top": "^1.9.9",
+    "@vuepress/theme-blog": "^1.0.0",
+    "vuepress": "^1.0.0"
+  }
+}
