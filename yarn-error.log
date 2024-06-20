@@ -1,0 +1,68 @@
+Arguments: 
+  /usr/local/bin/node /Users/dsh/.node/corepack/yarn/1.22.15/bin/yarn.js add vuepress-plugin-nuggets-style-copy -D
+
+PATH: 
+  /Users/dsh/.amplify/bin:/Users/dsh/Desktop/jdk1.8.0_261.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dsh/.amplify/bin:/Users/dsh/Desktop/jdk1.8.0_261.jdk/Contents/Home/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/vuepress-pluginfvz-dynamic-title: Not found
+      at Request.params.callback [as _callback] (/Users/dsh/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/dsh/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/Users/dsh/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/Users/dsh/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "my-blog",
+    "version": "0.0.1",
+    "description": "dushihong blog",
+    "main": "index.js",
+    "authors": {
+      "name": "dushihong",
+      "email": "dushihonga@163.com"
+    },
+    "repository": "/my-blog",
+    "scripts": {
+      "dev": "vuepress dev blog",
+      "build": "vuepress build blog"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "@vuepress/plugin-active-header-links": "^1.9.9",
+      "@vuepress/plugin-back-to-top": "^1.9.9",
+      "@vuepress/theme-blog": "^1.0.0",
+      "jquery": "^3.7.0",
+      "moment": "^2.29.4",
+      "vuepress-plugin-cursor-effects": "^1.1.6",
+      "vuepress-pluginfvz-dynamic-title": "^1.0.0",
+      "vuepress-plugin-go-top": "^1.0.4",
+      "vuepress-plugin-live2d": "^0.0.7",
+      "vuepress-plugin-ribbon": "^1.1.6"
+    },
+    "dependencies": {
+      "@vssue/api-github-v3": "^1.1.2",
+      "@vssue/vuepress-plugin-vssue": "^1.2.0",
+      "vuepress": "^1.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
